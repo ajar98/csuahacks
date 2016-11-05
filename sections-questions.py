@@ -41,9 +41,9 @@ def text_to_sections(text):
             sections += [Section(chapter, num, questions)]
     return sections
 
-def text_to_questions(text, parent_section):
+def text_to_questions(ques_num, parent_section):
     questions = []
-    for num in text:
+    for num in ques_num:
         num = num.strip("\n")
         num = num.strip(",")
         num = num.strip(" ")
