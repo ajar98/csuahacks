@@ -15,5 +15,11 @@ def page_range(lines, chapter, section_num):
             if int(chap) == chapter and int(num) == section_num:
                 line_needed, next_line = lines[i], lines[i+1]
                 break
-    return (line_needed.split(" ")[-1].strip("\n") ,next_line.split(" ")[-1].strip("\n"))
+    
+    first_line, second_line = line_needed.split(" "), next_line.split(" ")
+    if len(first_line) <= 1:
+        a,_ = page_range(lines, chapter-1, section_num)
+        _,b = page_range(lines, chapter+1, section_num)
+        return (a,b) , (chapter, section_num)
+    return (first_line[-1].strip("\n") , second_line[-1].strip("\n"))
 
