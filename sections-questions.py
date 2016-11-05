@@ -42,8 +42,13 @@ def text_to_sections(text):
     return sections
 
 def text_to_questions(text):
-
-    return
+    questions = []
+    for num in text:
+        for x in len(num):
+            if not isinstance(num[x], int):
+                num = num[:x]
+        questions.append((Question(num)))
+    return questions
 
 def parse_string(_file):
     f = open(_file, 'r')
