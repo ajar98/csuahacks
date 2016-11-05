@@ -8,9 +8,9 @@ MIN_PAGE_RANGE = 1
 MAX_PAGE_RANGE = 25
 STARTER = 50
 
-def pdf_split(filename, _min = MIN_RANGE_RANGE, _max=MAX_PAGE_RANGE):
+def pdf_split(filename, _min = MIN_PAGE_RANGE, _max=MAX_PAGE_RANGE):
     local('touch dest.pdf')
-    pdf_add('dest.pdf', filename,[_min-_max], None)
+    pdf_add('dest.pdf', filename, [_min-_max], None)
 
 def read(dir, output):
     filename = 'dest.pdf'
@@ -19,11 +19,11 @@ def read(dir, output):
         with open(output, 'a') as txt:
             txt.write(pytesseract.image_to_string(Image.open('{1}/{0}'.format(f, dir))))
 
-pdf_split('toc_math54.pdf')
-read('toc/54', 'toc.txt')
+# pdf_split('toc_math54.pdf')
+# read('toc/54', 'toc.txt')
 
 def offset(filename):
     pdf_split(filename, 50,50)
     read('toc/54', 'offset.txt')
-    
-
+ 
+offset('toc/54/math54.pdf')
