@@ -17,8 +17,8 @@ class Section():
 
 class Question():
 
-    def __init__(self, parent-section, number):
-        self.parent-section = parent-section
+    def __init__(self, parent_section, number):
+        self.parent_section = parent_section
         self.parent = number
         self.text = None
         self.solution = None
@@ -35,4 +35,6 @@ def text_to_sections(text):
 def text_to_questions(text):
     return
 
-
+def parse_string(_file):
+    f = open(_file, 'r')
+    a = f.readlines()
