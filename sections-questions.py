@@ -44,9 +44,9 @@ def text_to_sections(text):
 def text_to_questions(text):
     questions = []
     for num in text:
-        for x in len(num):
-            if not isinstance(num[x], int):
-                num = num[:x]
+        for x in (num):
+            if not isinstance(x, int):
+                num = num[:x]+num[(x+1):]
         questions.append((Question(num)))
     return questions
 
