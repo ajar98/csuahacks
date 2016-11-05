@@ -20,7 +20,7 @@ class Question():
 
     def __init__(self, parent_section, number):
         self.parent_section = parent_section
-        self.parent = number
+        self.number = number
         self.text = None
         self.solution = None
 
@@ -37,17 +37,21 @@ def text_to_sections(text):
         if a[0].lower() == 'section':
             chapter = a[1].split(".")[0]
             num = a[1].split(".")[1]
-            questions = text_to_questions(a[2:])
+            questions = text_to_questions(a[2:], num)
             sections += [Section(chapter, num, questions)]
     return sections
 
-def text_to_questions(text):
+def text_to_questions(text, parent_section):
     questions = []
     for num in text:
-        for x in (num):
-            if not isinstance(x, int):
-                num = num[:x]+num[(x+1):]
-        questions.append((Question(num)))
+        num = num.strip("\n")
+        num = num.strip(",")
+        num = num.strip(" ")
+        num = num.strip(",")
+        num = num.strip(".")
+        num = int(num)
+        questions+=[Question(parent_section, num)]
+    
     return questions
 
 def parse_string(_file):
