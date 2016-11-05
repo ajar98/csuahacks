@@ -1,0 +1,155 @@
+vi
+
+Contents
+
+3.3 Cramer’s Rule, Volume, and Linear Transformations 177
+Supplementary Exercises 185
+
+Chapter4 Vector Spaces 189
+
+Chapter 5
+
+Chapter 6
+
+INTRODUCTORY EXAMPLE: Space Flight and Control Systems 189
+4.1 Vector Spaces and Subspaces 190
+4.2 Null Spaces, Column Spaces, and Linear Transformations 198
+4.3 Linearly Independent Sets; Bases 208
+4.4 Coordinate Systems 216
+4.5 The Dimension of a Vector Space 225
+4.6 Rank 230
+4.7 Change of Basis 239
+4.8 Applications to Difference Equations 244
+4.9 Applications to Markov Chains 253
+Supplementary Exercises 262
+
+Eigenvalues and Eigenvectors 265
+
+INTRODUCTORY EXAMPLE: Dynamical Systems and Spotted Owls 265
+5.1 Eigenvectors and Eigenvalues 266
+5.2 The Characteristic Equation 273
+5.3 Diagonalization 281
+5.4 Eigenvectors and Linear Transformations 288
+5.5 Complex Eigenvalues 295
+5.6 Discrete Dynamical Systems 301
+5.7 Applications to Differential Equations 311
+5.8 Iterative Estimates for Eigenvalues 319
+Supplementary Exercises 326
+
+Orthogonality and Least Squares 329
+
+INTRODUCTORY EXAMPLE: The North American Datum
+and GPS Navigation 329
+
+6.1 Inner Product, Length, and Orthogonality 330
+
+6.2 Orthogonal Sets 338
+
+6.3 Orthogonal Projections 347
+
+6.4 The Gram—Schmidt Process 354
+
+6.5 Least—Squares Problems 360
+
+6.6 Applications to Linear Models 368
+
+6.7 Inner Product Spaces 376
+
+6.8 Applications of Inner Product Spaces 383
+Supplementary Exercises 390Chapter 7 Symmetric Matrices and Quadratic Forms
+
+Chapter 8
+
+Chapter 9
+
+Chapter 10
+
+393
+
+INTRODUCTORY EXAMPLE: Multichannel Image Processing 393
+
+7.1
+7.2
+7.3
+7.4
+7.5
+
+Diagonalization of Symmetric Matrices 395
+Quadratic Forms 401
+
+Constrained Optimization 408
+
+The Singular Value Decomposition 414
+Applications to Image Processing and Statistics
+Supplementary Exercises 432
+
+The Geometry of Vector Spaces 435
+
+INTRODUCTORY EXAMPLE: The Platonic Solids 435
+
+8.1
+8.2
+8.3
+8.4
+8.5
+8.6
+
+Afﬁne Combinations 436
+Afﬁne Independence 444
+Convex Combinations 454
+Hyperplanes 461
+Polytopes 469
+
+Curves and Surfaces 481
+
+Optimization (Online)
+
+INTRODUCTORY EXAMPLE: The Berlin Airlift
+
+9.1
+9.2
+9.3
+9.4
+
+Matrix Games
+
+Linear Programming—Geometric Method
+Linear Programming— Simplex Method
+Duality
+
+Finite-State Markov Chains (Online)
+
+INTRODUCTORY EXAMPLE: Google and Markov Chains
+
+10.1
+10.2
+10.3
+10.4
+10.5
+10.6
+
+Introduction and Examples
+
+The Steady—State Vector and Google’s PageRank
+Communication Classes
+
+Classiﬁcation of States and Periodicity
+
+The Fundamental Matrix
+
+Markov Chains and Baseball Statistics
+
+424
+
+Contents viiviii Contents
+
+Appendixes
+A Uniqueness of the Reduced Echelon Form A1
+B Complex Numbers A2
+
+Glossary A7
+
+Answers to Odd-Numbered Exercises A17
+Index 11
+
+Photo Credits P1
