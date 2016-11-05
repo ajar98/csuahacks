@@ -7,7 +7,7 @@ assigned any homework on it.) We will omit 10.6.
 
 Homework to hand in:
 
-Section 10.1: 3, 13, 21, 24, 25, 33, 41.
+Section 10.1: 3, 5, 13, 21, 24, 25, 33, 41.
 Section 10.2: 5, 15, 25, 31, 51, 53.
 Section 10.3: 3, 5, 10, 25, 35, 40.
 Section 10.4: 5, 19, 35, 41, 45, 47.
