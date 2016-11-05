@@ -1,9 +1,10 @@
 class Section():
     
-    def __init__(self, number):
+    def __init__(self, chapter, number, questions=[]):
         self.number = number
-        self.questions = []
+        self.questions = questions
         self.reading = None
+        self.chapter = None
 
     def number(self):
         return self.number
@@ -30,11 +31,20 @@ class Question():
         return self.solution
 
 def text_to_sections(text):
-    return
+    sections = []
+    for a in text:
+        a = a.split(" ")
+        if a[0].lower() == 'section':
+            chapter = a[1].split(".")[0]
+            num = a[1].split(".")[1]
+            questions = text_to_questions(a[2:])
+            sections += [Section(chapter, num, questions)]
+    return sections
 
 def text_to_questions(text):
+
     return
 
 def parse_string(_file):
     f = open(_file, 'r')
-    a = f.readlines()
+    return f.readlines()
