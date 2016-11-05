@@ -1,91 +1,31 @@
-Contents
-
-Preface ix
-A Note to Students xv
-
-Chapter 1 Linear Equations in Linear Algebra 1
-
-INTRODUCTORY EXAMPLE: Linear Models in Economics and Engineering 1
-
-1.1 Systems of Linear Equations 2
-
-1.2 Row Reduction and Echelon Forms 12
-
-1.3 Vector Equations 24
-
-1.4 The Matrix Equation Ax = b 34
-
-1.5 Solution Sets of Linear Systems 43
-
-1.6 Applications of Linear Systems 49
-
-1.7 Linear Independence 55
-
-1.8 Introduction to Linear Transformations 62
-
-1.9 The Matrix of a Linear Transformation 70
-
-1.10 Linear Models in Business, Science, and Engineering 80
-Supplementary Exercises 88
-
-Chapter2 Matrix Algebra 91
-
- 
-
-INTRODUCTORY EXAMPLE: Computer Models in Aircraft Design 91
-2.1 Matrix Operations 92
-2.2 The Inverse of a Matrix 102
-2.3 Characterizations of Invertible Matrices 111
-2.4 Partitioned Matrices 117
-2.5 Matrix Factorizations 123
-2.6 The Leontief Input—Output Model 132
-2.7 Applications to Computer Graphics 138
-2.8 Subspaces of R” 146
-2.9 Dimension and Rank 153
-Supplementary Exercises 160
-
-Chapter 3 Determinants 163
-
-INTRODUCTORY EXAMPLE: Random Paths and Distortion 163
-3.1 Introduction to Determinants 164
-3.2 Properties of Determinants 169vi
+vi
 
 Contents
 
-Chapter 4
+3.3 Cramer’s Rule, Volume, and Linear Transformations 177
+Supplementary Exercises 185
+
+Chapter4 Vector Spaces 189
 
 Chapter 5
 
 Chapter 6
 
-3.3 Cramer’s Rule, Volume, and Linear Transformations 177
-Supplementary Exercises 185
-
-Vector Spaces 189
-
 INTRODUCTORY EXAMPLE: Space Flight and Control Systems 189
 4.1 Vector Spaces and Subspaces 190
-
 4.2 Null Spaces, Column Spaces, and Linear Transformations 198
-
 4.3 Linearly Independent Sets; Bases 208
-
 4.4 Coordinate Systems 216
-
 4.5 The Dimension of a Vector Space 225
-
 4.6 Rank 230
-
 4.7 Change of Basis 239
-
 4.8 Applications to Difference Equations 244
-
 4.9 Applications to Markov Chains 253
 Supplementary Exercises 262
 
 Eigenvalues and Eigenvectors 265
 
-INTRODUCTORY EXAMPLE: Dynamical Systems and Spotted Owls
+INTRODUCTORY EXAMPLE: Dynamical Systems and Spotted Owls 265
 5.1 Eigenvectors and Eigenvalues 266
 5.2 The Characteristic Equation 273
 5.3 Diagonalization 281
@@ -98,10 +38,6 @@ Supplementary Exercises 326
 
 Orthogonality and Least Squares 329
 
-265
-
- 
-
 INTRODUCTORY EXAMPLE: The North American Datum
 and GPS Navigation 329
 
@@ -113,68 +49,107 @@ and GPS Navigation 329
 
 6.4 The Gram—Schmidt Process 354
 
-6.5 Least-Squares Problems 360
+6.5 Least—Squares Problems 360
 
 6.6 Applications to Linear Models 368
 
 6.7 Inner Product Spaces 376
 
 6.8 Applications of Inner Product Spaces 383
-Supplementary Exercises 390Contents vii
+Supplementary Exercises 390Chapter 7 Symmetric Matrices and Quadratic Forms
 
-Chapter 7 Symmetric Matrices and Quadratic Forms 393
+Chapter 8
+
+Chapter 9
+
+Chapter 10
+
+393
 
 INTRODUCTORY EXAMPLE: Multichannel Image Processing 393
 
-7.1 Diagonalization of Symmetric Matrices 395
+7.1
+7.2
+7.3
+7.4
+7.5
 
-7.2 Quadratic Forms 401
+Diagonalization of Symmetric Matrices 395
+Quadratic Forms 401
 
-7.3 Constrained Optimization 408
+Constrained Optimization 408
 
-7.4 The Singular Value Decomposition 414
-
-7.5 Applications to Image Processing and Statistics 424
+The Singular Value Decomposition 414
+Applications to Image Processing and Statistics
 Supplementary Exercises 432
 
-Chapter 8 The Geometry of Vector Spaces 435
+The Geometry of Vector Spaces 435
 
 INTRODUCTORY EXAMPLE: The Platonic Solids 435
-8.1 Afﬁne Combinations 436
 
-8.2 Afﬁne Independence 444
+8.1
+8.2
+8.3
+8.4
+8.5
+8.6
 
-8.3 Convex Combinations 454
+Afﬁne Combinations 436
+Afﬁne Independence 444
+Convex Combinations 454
+Hyperplanes 461
+Polytopes 469
 
-8.4 Hyperplanes 461
+Curves and Surfaces 481
 
-8.5 Polytopes 469
-
-8.6 Curves and Surfaces 481
-
-Chapter 9 Optimization (Online)
-
- 
+Optimization (Online)
 
 INTRODUCTORY EXAMPLE: The Berlin Airlift
-9.1 Matrix Games
 
-9.2 Linear Programming—Geometric Method
-9.3 Linear Programming—Simplex Method
-9.4 Duality
+9.1
+9.2
+9.3
+9.4
 
-Chapter 10 Finite-State Markov Chains (Online)
+Matrix Games
 
- 
+Linear Programming—Geometric Method
+Linear Programming— Simplex Method
+Duality
+
+Finite-State Markov Chains (Online)
 
 INTRODUCTORY EXAMPLE: Google and Markov Chains
-10.1 Introduction and Examples
 
-10.2 The Steady-State Vector and Google’s PageRank
-10.3 Communication Classes
+10.1
+10.2
+10.3
+10.4
+10.5
+10.6
 
-10.4 Classiﬁcation of States and Periodicity
+Introduction and Examples
 
-10.5 The Fundamental Matrix
+The Steady—State Vector and Google’s PageRank
+Communication Classes
 
-10.6 Markov Chains and Baseball Statistics
+Classiﬁcation of States and Periodicity
+
+The Fundamental Matrix
+
+Markov Chains and Baseball Statistics
+
+424
+
+Contents viiviii Contents
+
+Appendixes
+A Uniqueness of the Reduced Echelon Form A1
+B Complex Numbers A2
+
+Glossary A7
+
+Answers to Odd-Numbered Exercises A17
+Index 11
+
+Photo Credits P1
