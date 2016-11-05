@@ -20,6 +20,6 @@ def page_range(lines, chapter, section_num):
     if len(first_line) <= 1:
         a,_ = page_range(lines, chapter-1, section_num)
         _,b = page_range(lines, chapter+1, section_num)
-        return (a,b) , (chapter, section_num)
+        return a,b, chapter, section_num
     return (first_line[-1].strip("\n") , second_line[-1].strip("\n"))
 
