@@ -23,9 +23,9 @@ def read_toc(txtbook, dir, output, start_page, end_page):
     read('{0}.pdf'.format(output), dir, '{0}.txt'.format(output))
 
 def offset(filename):
-    pdf_split(filename, 'starter.pdf', STARTER, STARTER)
-    read('starter.pdf', 'toc/54/offset', 'offset.txt')
-    with open('offset.txt', 'r') as f:
+    pdf_split(filename, 'pdfs/starter.pdf', STARTER, STARTER)
+    read('pdfs/starter.pdf', 'pdfs/54/offset', 'pdfs/offset.txt')
+    with open('pdfs/offset.txt', 'r') as f:
         line = f.readline()
         page_number = None
         for token in line.split(' '):
@@ -34,5 +34,5 @@ def offset(filename):
                 break
     return STARTER - page_number
 
-# read_toc('toc/54/math54.pdf', 'toc/54', 'toc', 6, 8)
-print(offset('toc/54/math54.pdf'))
+# read_toc('pdfs/54/math54.pdf', 'pdfs/54', 'pdfs/toc', 5, 8)
+# print(offset('pdfs/54/math54.pdf'))
