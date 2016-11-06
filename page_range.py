@@ -21,5 +21,5 @@ def page_range(lines, chapter, section_num):
         a,_ = page_range(lines, chapter-1, section_num)
         _,b = page_range(lines, chapter+1, 1)
         return a,b, chapter, section_num
-    return (first_line[-1].strip("\n") , second_line[-1].strip("\n"))
+    return (int(first_line[-1].strip("\n")) , int(second_line[-1].strip("\n")))
 
