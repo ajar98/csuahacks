@@ -19,20 +19,9 @@ if __name__ == '__main__':
 
 #######################
 
-<<<<<<< HEAD
     offset_val = offset(text_pdf, '{0}/offset'.format(dir), 'offset')
 
     print('Offset: {0}'.format(offset_val))
-=======
-toc_lines = parser(index_txt)
-assignment_lines = parser(assignment_txt)
-_sections = text_to_sections(assignment_lines)
-p_ranges = []
-
-for section in _sections:
-    chapter, section_num = section.chapter, section.section_num
-    p_ranges += [page_range(index_txt, chapter, section_num)]
->>>>>>> e929c5ead1ca1d38eb2928780a6326893ba2c5c1
 
     toc_lines = parser('{0}.txt'.format(index_txt))
     assignment_lines = parser(assignment_txt)
